@@ -651,9 +651,6 @@ function renderAllHeadContent(result) {
   }
   return markHTMLString(content);
 }
-function renderHead() {
-  return createRenderInstruction({ type: "head" });
-}
 function maybeRenderHead() {
   return createRenderInstruction({ type: "maybe-head" });
 }
@@ -1837,4 +1834,4 @@ function spreadAttributes(values = {}, _name, { class: scopedClassName } = {}) {
   return markHTMLString(output);
 }
 
-export { ASTRO_VERSION as A, DEFAULT_404_COMPONENT as D, ROUTE_TYPE_HEADER as R, REROUTE_DIRECTIVE_HEADER as a, renderJSX as b, chunkToString as c, clientLocalsSymbol as d, clientAddressSymbol as e, renderPage as f, renderEndpoint as g, responseSentSymbol as h, isRenderInstruction as i, REROUTABLE_STATUS_CODES as j, createComponent as k, renderTemplate as l, maybeRenderHead as m, addAttribute as n, createAstro as o, renderHead as p, renderComponent as q, renderSlotToString as r, spreadAttributes as s };
+export { ASTRO_VERSION as A, DEFAULT_404_COMPONENT as D, ROUTE_TYPE_HEADER as R, REROUTE_DIRECTIVE_HEADER as a, renderJSX as b, chunkToString as c, clientLocalsSymbol as d, clientAddressSymbol as e, renderPage as f, renderEndpoint as g, responseSentSymbol as h, isRenderInstruction as i, REROUTABLE_STATUS_CODES as j, createComponent as k, renderTemplate as l, maybeRenderHead as m, addAttribute as n, createAstro as o, renderComponent as p, renderSlotToString as r, spreadAttributes as s };

@@ -1,5 +1,5 @@
 import { A as AstroError, z as InvalidImageService, B as ExpectedImageOptions, D as ExpectedImage, F as ExpectedNotESMImage, H as resolveSrc, J as isRemoteImage, K as FailedToFetchRemoteImageDimensions, Q as isESMImportedImage, T as isLocalService, U as DEFAULT_HASH_PROPS, V as ImageMissingAlt, W as isRemotePath, X as isRemoteAllowed } from './astro/assets-service_ChUv9DFU.mjs';
-import { k as createComponent, l as renderTemplate, m as maybeRenderHead, n as addAttribute, s as spreadAttributes, o as createAstro } from './astro/server_kUZycydl.mjs';
+import { k as createComponent, l as renderTemplate, m as maybeRenderHead, n as addAttribute, s as spreadAttributes, o as createAstro } from './astro/server_BNKAhyS7.mjs';
 import 'html-escaper';
 import 'clsx';
 import * as mime from 'mrmime';
